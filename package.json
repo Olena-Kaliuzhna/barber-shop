@@ -1,0 +1,32 @@
+{
+  "name": "barber-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Olena-Kaliuzhna.github.io/barber-shop",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/barber-shop/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olena-Kaliuzhna/barber-shop"
+  },
+  "keywords": [],
+  "author": "Olena-Kaliuzhna <om.kaliuzhna.dz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olena-Kaliuzhna/barber-shop/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
